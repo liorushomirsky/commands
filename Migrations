@@ -1,0 +1,5 @@
+_To prepare models for migrations_
+python manage.py makemigrations
+
+_To commit the migrations to the site_
+python manage.py migrate
