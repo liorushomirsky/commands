@@ -1,21 +1,21 @@
-_When using a dev server make sure to change https://app.dealsumm.com/_
-_The correct address would be http://udev1.dealsumm.com/_
+//When using a dev server make sure to change https://app.dealsumm.com/
+//The correct address would be http://udev1.dealsumm.com/
 
 
-_Address of server:_
+//Address of server:
 <server_name>.dealsumm.com
 
-_Affter activating a server in ParkMyCloud, run this:_
+//After activating a server in ParkMyCloud, run this:
 ssh -i ~/.ssh/amazon-new-ubuntu.pem ubuntu@<server_name>.dealsumm.com
 
-_Make sure that you are on the right branch_
+//Make sure that you are on the right branch
 git status
 
-_If you need to switch a branch_
+//If you need to switch a branch
 git checkout <branch_name>
 
-_To pull_
+//To pull
 git pull
 
-_To deploy, must wait for database to go online_
+//To deploy, must wait for database to go online
 ~/dealsumm-devop-tools/maintenance/deploy.sh
