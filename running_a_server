@@ -2,3 +2,14 @@
 _Affter activating a server in ParkMyCloud, run this:_
 ssh -i ~/.ssh/amazon-new-ubuntu.pem ubuntu@<server_name>.dealsumm.com
 
+_Make sure that you are on the right branch_
+git status
+
+_If you need to switch a branch_
+git checkout <branch_name>
+
+_To pull_
+git pull
+
+_To deploy, must wait for database to go online_
+~/dealsumm-devop-tools/maintenance/deploy.sh
