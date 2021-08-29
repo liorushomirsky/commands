@@ -1,0 +1,7 @@
+_Address of server:_
+localhost:8000/
+or
+127.0.0.1:8000/
+
+_To run server:_
+python manage.py runserver
