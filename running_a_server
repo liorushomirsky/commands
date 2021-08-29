@@ -1,3 +1,5 @@
+_Address of server:_
+<server_name>.dealsumm.com
 
 _Affter activating a server in ParkMyCloud, run this:_
 ssh -i ~/.ssh/amazon-new-ubuntu.pem ubuntu@<server_name>.dealsumm.com
