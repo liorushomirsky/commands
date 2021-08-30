@@ -8,6 +8,15 @@
 //After activating a server in ParkMyCloud, run this:
 ssh -i ~/.ssh/amazon-new-ubuntu.pem ubuntu@<server_name>.dealsumm.com
 
+//Activating virtual environment
+source ~/dealthing-pyenv-current/bin/activate
+
+//Deactivating virtual environment
+deactivate
+
+//Entering the directory
+cd dealthing/webapp
+
 //Make sure that you are on the right branch
 git status
 
@@ -19,3 +28,5 @@ git pull
 
 //To deploy, must wait for database to go online
 ~/dealsumm-devop-tools/maintenance/deploy.sh
+
+
