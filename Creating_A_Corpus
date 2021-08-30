@@ -1,0 +1,9 @@
+//Copying tenants
+python manage.py clone_tenant 0 f <tenant_1_id>,...,<tenant_n_id> p <property_destination_id> --user <username>
+
+
+//Running assessment on corpus
+switch columns to assessment
+RCM > assessment > clone_property
+RCM > assessment > align
+RCM > assessment > compare
