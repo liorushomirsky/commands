@@ -1,0 +1,7 @@
+//Starting elastic search - search and analytics engine
+sudo service elasticsearch status
+sudo service elasticsearch restart
+
+//starting logstash - API for elasti search
+sudo service logstash status
+sudo service logstash restart
