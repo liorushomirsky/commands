@@ -4,5 +4,25 @@ python manage.py makemigrations
 //To commit the migrations to the site
 python manage.py migrate
 
-//Activate a django shell, helps to create a configured environment to run tasks and functions using the framework
+//Activate a django shell, helps to create a configured environment to run tasks 
+and functions using the framework
 python manage.py shell
+
+
+
+
+//==========================
+//Testing
+//==========================
+tests are problematic ro run with pycharm since it requires a configuration. 
+Using the manage.py shell commanad its possible to run a test in the terminal 
+without bothering iwth the configurations.
+
+//Run a test file
+python manage.py run_pytest <file_name>
+
+//Run a test class in file (usually should be only one class per file)
+python manage.py run_pytest <file_name>::<class_name>
+
+//Run a specific test in a class
+python manage.py run_pytest <file_name>::<class_name>::<test_name>
