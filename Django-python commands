@@ -3,3 +3,6 @@ python manage.py makemigrations
 
 //To commit the migrations to the site
 python manage.py migrate
+
+//Activate a django shell, helps to create a configured environment to run tasks and functions using the framework
+python manage.py shell
