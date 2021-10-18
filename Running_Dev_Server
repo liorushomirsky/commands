@@ -30,3 +30,5 @@ git pull
 ~/dealsumm-devop-tools/maintenance/deploy.sh
 
 
+//Approve new IP
+~/dealsumm-devop-tools/maintenance/approve_my_ip.sh
