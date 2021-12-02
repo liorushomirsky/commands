@@ -1,0 +1,12 @@
+
+~/dealsumm-devop-tools/maintenance/gogo.sh
+=> Choose [1-8] environment
+
+=> Choose [1-5] machine
+webapp - runs up to tree_views.py (including)
+processing machine - runs python code (tasks and everythign the call)
+
+
+for Blugaria:
+=> Choose [1-2] blue or green, whichever is running
+
