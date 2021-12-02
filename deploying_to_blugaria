@@ -1,0 +1,9 @@
+~/dealsumm-devop-tools/maintenance/blugaria_deploy_branch.sh --old <branchname>
+
+Ok to deploy to rabbit [Y/n] ? n (usually no need)
+Would you like to proceed to the next action [Y/n] ? 
+Ok to deploy to processing machines [Y/n] ? (Y if code of tasks changed)
+Would you like to proceed to the next action [Y/n] ? 
+Ok to deploy to webapp [Y/n] ? (Y if code for tree_views.py changed)
+Would you like to proceed to the next action [Y/n] ? 
+Ok to take the image of a processing machine for auto-scaling [Y/n] ? (Y if want to save changes permenantly in blugaria)
