@@ -1,0 +1,4 @@
+cd ~/dealthing/webapp/static/_react/
+./node_modules/webpack/bin/webpack.js --colors --progress -d --watch 
+
+to compile for non-dev servers, run with flag --optimize-minimize
