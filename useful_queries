@@ -1,0 +1,16 @@
+# Delete all alignment between two organizations
+DELETE 
+FROM `deals_aligneddoctodoctokenmap` 
+WHERE id in (
+                select new_tab.id
+                from (
+                    select  align.id
+                    from `deals_aligneddoctodoctokenmap` align
+                    inner join deals_document sd on sd.id = align.source_doc_id
+                    inner join deals_document td on td.id = align.target_doc_id
+                    inner join deals_folder sf on sf.id = sd.folder_id
+                    inner join deals_folder tf on tf.id = td.folder_id 
+                    Where sf.organization_id = 4830 and tf.organization_id=4831
+                ) new_tab
+)
+
